@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="image">
+    <file>../../../源代码/source/input_back.jpg</file>
+  </qresource>
+</RCC>

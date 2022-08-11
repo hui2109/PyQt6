@@ -1,0 +1,206 @@
+QPushButton{
+    color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                stop:0 white, stop: 0.4 red, stop:1 black);
+    border:2px solid red;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+QPushButton:hover{
+    color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                stop:0 white, stop: 0.4 green, stop:1 black);
+    border: 5px dotted green;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px
+}
+QPushButton:pressed{
+    font-size: 26px;
+    border:5px double orange;
+    border-radius: 10px; 
+    border-top-right-radius:5px
+}
+
+/* ------------------------------------------------- */
+
+QRadioButton {
+    padding-left: 10px;
+    spacing: 60px;
+    color: red;
+    font-size: 20px;
+    border: 3px double rgb(66, 188, 123);
+    border-radius: 10px;
+}
+QRadioButton::indicator {
+    width: 35px;
+    height: 30px;
+}
+QRadioButton::indicator::unchecked {
+    image: url(PyQt6布局/源代码/source/uncheck.png);
+}
+QRadioButton::indicator::checked { 
+    image: url(PyQt6布局/源代码/source/checked.png);
+}
+
+/* ------------------------------------------------- */
+
+QCheckBox {
+    padding-left: 10px;
+    spacing: 60px;
+    color: red;
+    font-size: 20px;
+    border: 1px double red;
+    border-radius: 40px;
+}
+QCheckBox::indicator {         
+    width: 35px;
+    height: 30px;
+}
+QCheckBox::indicator:unchecked {
+    image: url(PyQt6布局/源代码/source/close_pic.png);
+}
+QCheckBox::indicator:indeterminate {
+    image: url(PyQt6布局/源代码/source/mid_pic.png);
+}
+QCheckBox::indicator:checked { 
+    image: url(PyQt6布局/源代码/source/open_pic.png);
+}
+
+/* ------------------------------------------------- */
+
+QLineEdit {
+    border: 6px solid rgb(41, 57, 85);   
+    border-radius: 10px; 
+    background: white;  
+    selection-background-color: green; 
+    selection-color: rgb(109, 29, 178);
+    font-size: 14px ;  
+}
+QLineEdit[echoMode="2"] {
+    lineedit-password-character: 65;
+}
+QLineEdit[readOnly="true"] {
+    background-color: gray;
+}
+QLineEdit:hover {
+    border: 1px solid blue;  
+}
+
+/* ------------------------------------------------- */
+
+QTextEdit {
+    border-radius: 20px;
+    padding-top: 14px;
+    padding-left: 50px;
+    border-image: url(PyQt6布局/源代码/source/input_back.jpg);
+    selection-background-color: green; 
+    font-size: 14px ;  
+}
+
+/* ------------------------------------------------- */
+
+QSpinBox {
+    padding-left: 50px;
+    padding-right: 10px;
+    border:2px dotted green;
+    border-radius: 25px;
+}
+QSpinBox::up-button {
+    width: 50px;
+    height: 50px;
+    subcontrol-origin: padding;
+    subcontrol-position: left center;
+    left: 2px;
+    border-image: url(PyQt6布局/源代码/source/up.png);
+}
+QSpinBox::up-button:hover {
+    bottom: 5px;
+}
+QSpinBox::down-button {
+    width: 50px;
+    height: 50px;
+    subcontrol-origin: margin;
+    subcontrol-position: right center;
+    right: 2px;
+    border-image: url(PyQt6布局/源代码/source/down.png);
+}
+QSpinBox::down-button:hover {
+    top: 5px;
+}
+
+/* ------------------------------------------------- */
+
+QComboBox {
+    color:red;
+    selection-background-color: orange;
+    min-height: 40px;
+    min-width: 80px;
+}
+QComboBox QAbstractItemView {
+    font: 14px;
+    selection-color: white;
+    selection-background-color: rgb(211, 48, 48);
+    background-color: orange;
+}
+QComboBox QAbstractItemView::item {
+    color: green;
+}
+QComboBox::drop-down {
+    background-color: cyan;
+}
+QComboBox::down-arrow {
+    image: url(PyQt6布局/源代码/source/down.png);
+    width: 20px;
+    height: 20px;
+}
+
+/* ------------------------------------------------- */
+
+QSlider::groove:Horizontal 
+{
+    background-color:rgb(40, 169, 30);
+    height:15px;        /* 此段代码非常关键 */
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    /* padding-left: -10px; 
+    padding-right: -10px; 
+    padding-top: -5px;
+    padding-bottom: -5px; */
+    /* padding-bottom: -5px; */
+}
+QSlider::handle:Horizontal 
+{
+    border-image: url(PyQt6布局/源代码/source/hk.png);
+    height: 60px;
+    width:30px;
+}
+QSlider::add-page:Horizontal
+ {     
+    background-color: rgb(87, 97, 106);
+    height:4px;
+ }
+ QSlider::sub-page:Horizontal 
+{
+    background-color:qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 cyan, stop:1 blue);
+    height:4px;
+}
+
+/* ------------------------------------------------- */
+
+QProgressBar {
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+    background-color: orange;
+}
+QProgressBar::chunk {
+    background-color: green;
+    width: 10px;
+    margin: 0.5px;
+}

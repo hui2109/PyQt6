@@ -1,0 +1,5 @@
+#label1 {
+    background-color: qconicalgradient(cx:0.5,cy:0.5,angle:30,
+    stop:0 blue,stop:1 orange);
+    border-radius:10px;
+}

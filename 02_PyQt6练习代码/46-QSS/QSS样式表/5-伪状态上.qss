@@ -1,0 +1,21 @@
+QCheckBox::indicator:checked {
+    image:url('PyQt6布局/源代码/source/checked.png');
+    width: 20px;
+    height:20px;
+}
+QCheckBox::indicator:unchecked {
+    image:url('PyQt6布局/源代码/source/uncheck.png');
+    width: 20px;
+    height:20px;
+}
+QCheckBox::indicator:indeterminate {
+    image:url('PyQt6布局/源代码/source/xxx.png');
+    width: 20px;
+    height:20px;
+}
+QPushButton:pressed {
+    background-color: antiquewhite;
+}
+QPushButton:hover {
+    border: 3px solid rgb(84, 187, 151);
+}

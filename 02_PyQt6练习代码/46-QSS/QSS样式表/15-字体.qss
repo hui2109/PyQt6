@@ -1,0 +1,8 @@
+QTextEdit {
+    font-family: 'Songti-Sc';
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: aqua;
+
+}

@@ -1,0 +1,15 @@
+#label1 {
+    border-width: 3px;
+    border-style: dotted;
+}
+#label2 {
+    border-width: 3px;
+    border-style: dotted solid dashed double;
+}
+#label3 {
+    border-width: 10px;
+    border-top-style: groove;
+    border-right-style: ridge;
+    border-bottom-style: inset;
+    border-left-style: outset;
+}

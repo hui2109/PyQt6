@@ -1,0 +1,12 @@
+#label1 {
+    border-width: 2px;
+    border-style: dotted;
+}
+#label2 {
+    border-width: 2px 4px 6px 8px;
+    border-style: dotted;
+}
+#label3 {
+    border-top-width: 2px;
+    border-style: dotted;
+}

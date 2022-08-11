@@ -1,0 +1,12 @@
+#btn1 {
+    background-color: rgb(255, 240, 127);
+}
+QLabel[notice] {
+    background-color: blue;
+}
+QLabel[notice='warning'] {
+    border: 3px solid greenyellow;
+}
+QLabel[notice='error'] {
+    border: 3px solid red;
+}

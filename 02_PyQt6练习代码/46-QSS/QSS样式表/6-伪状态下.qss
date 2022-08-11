@@ -1,0 +1,24 @@
+QWidget:disabled {
+    background-color: aquamarine;
+}
+QWidget:enabled {
+    border: 3px dotted rgb(153, 51, 51);
+}
+QCheckBox::indicator:on {
+    image:url('PyQt6布局/源代码/source/checked.png');
+    width: 20px;
+    height:20px;
+}
+QCheckBox::indicator:off {
+    image:url('PyQt6布局/源代码/source/uncheck.png');
+    width: 20px;
+    height:20px;
+}
+QCheckBox::indicator:indeterminate {
+    image:url('PyQt6布局/源代码/source/xxx.png');
+    width: 20px;
+    height:20px;
+}
+QWidget:!focus {
+    border: 5px solid yellow;
+}

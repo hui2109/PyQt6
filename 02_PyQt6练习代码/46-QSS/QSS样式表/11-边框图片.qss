@@ -1,0 +1,5 @@
+#label1 {
+    border-image: url(PyQt6布局/源代码/source/border.png)
+                    9px round;
+    border-width: 9px;
+}

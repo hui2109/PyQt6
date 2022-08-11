@@ -1,0 +1,9 @@
+QPushButton#btn2{
+    background-color:rgb(193, 21, 21);
+}
+QLabel#l1{
+    background-color:rgb(178, 208, 32)
+}
+QLabel#l1:hover{
+    background-color:rgb(32, 38, 208)
+}

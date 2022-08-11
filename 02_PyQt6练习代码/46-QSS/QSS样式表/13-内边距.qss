@@ -1,0 +1,13 @@
+#label1 {
+    background-color: aqua;
+    border-width: 20px;
+    border-style: solid;
+    padding: 20px;
+}
+#label2 {
+    background-color: aqua;
+    border-width: 20px;
+    border-style: solid;
+    padding: 20px;
+    padding-top: 10px;
+}

@@ -1,0 +1,74 @@
+QSpinBox {
+    width: 100px;
+    height: 100px;
+    font-size: 26px;
+    color: orange;
+    border: 10px dotted red;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+QSpinBox::up-button {
+    width: 50px;
+    height: 50px;
+    subcontrol-origin: padding;
+    subcontrol-position:left center;
+    image: url(PyQt6布局/源代码/source/up.png)
+}
+QSpinBox::down-button {
+    width: 50px;
+    height: 50px;    
+    subcontrol-origin: padding;
+    subcontrol-position:right center;
+    image: url(PyQt6布局/源代码/source/down.png)
+}
+QSpinBox::up-button:hover {
+    bottom: 10px;
+}
+    
+QSpinBox::down-button:hover {
+    top: 10px;
+}
+
+/* --------------------------------------------- */
+
+QCheckBox {
+    color: rgb(217, 22, 22);
+    border: 10px solid rgb(76, 76, 76);
+    padding: 5px;
+}
+
+QCheckBox::indicator {
+    subcontrol-origin: padding;
+    subcontrol-position: left center;
+    background: rgb(46, 173, 48);
+    border: 2px solid rgb(23, 21, 151);
+}
+QCheckBox::indicator:checked {
+    background: rgb(192, 183, 23);
+}
+
+/* --------------------------------------------- */
+
+QComboBox {
+    color: rgb(218, 10, 10);
+    border: 6px solid rgb(51, 210, 213);
+    spacing: 10px; /* indicator 和 text 的间隔 */
+    padding: 10px;
+}
+QComboBox::drop-down {
+    width: 15px;
+    height: 10px;
+    subcontrol-origin: padding;
+    subcontrol-position: bottom center;
+    background: rgb(76, 199, 43);
+    border: 2px dotted rgb(210, 28, 223);
+    border-radius: 3px;
+}
+QComboBox::drop-down:hover {
+    background: rgb(184, 149, 8);
+}
+QComboBox::drop-down:on {
+    background: rgb(33, 209, 218);
+    top: 1px;
+    left: 1px;
+}

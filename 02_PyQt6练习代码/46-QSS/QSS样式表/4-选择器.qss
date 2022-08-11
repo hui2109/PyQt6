@@ -1,0 +1,14 @@
+QWidget#box1>QPushButton {
+    background-color:aqua;
+}
+
+QCheckBox::indicator:checked {
+    image:url('/Users/hui99563/Pictures/IMG_20190721_175831.jpg');
+    width: 20px;
+    height:20px;
+}
+QCheckBox::indicator:unchecked {
+    image:url('/Users/hui99563/Pictures/1.jpeg');
+    width: 20px;
+    height:20px;
+}

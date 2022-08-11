@@ -1,0 +1,30 @@
+QLabel {
+    background-color: blue;
+    background-image: url(PyQt6布局/源代码/logo.jpg);
+    background-position: left top;
+    background-origin: content;
+    background-clip: padding;
+    background-repeat: repeat-xy;
+
+    margin: 20px;
+    border-style: dotted;
+    border-width: 20px;
+    border-color: aqua;
+    padding: 20px;
+}
+QTextEdit {
+    background-color: blue;
+    background-image: url(PyQt6布局/源代码/logo.jpg);
+    background-position: left top;
+    background-origin: content;
+    background-clip: padding;
+    background-repeat: repeat-xy;
+    
+    background-attachment: fixed;
+
+    margin: 20px;
+    border-style: dotted;
+    border-width: 20px;
+    border-color: aqua;
+    padding: 20px;
+}

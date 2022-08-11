@@ -1,0 +1,24 @@
+#label1 {
+    border-width: 5px;
+    border-style: groove;
+    border-color: rgb(45, 179, 134) rgb(214, 111, 38)
+                    rgb(179, 179, 45) rgb(179, 45, 168);
+}
+#label2 {
+    border-width: 5px;
+    border-style: groove;
+    border-color: qlineargradient(x1:0,y1:0,x2:1,y2:0,stop:0 wheat,
+                                stop:0.4 red, stop:1 green);
+}
+#label3 {
+    border-width: 5px;
+    border-style: groove;
+    border-color: qradialgradient(cx:0.7,cy:0.7,radius:0.5,fx:0.5,fy:0.5,
+                                stop:0 rebeccapurple,stop:1 rgb(179, 179, 45))
+}
+#label4 {
+    border-width: 5px;
+    border-style: groove;
+    border-color: qconicalgradient(cx:0.5,cy:0.5,angle:30,
+                            stop:0 blue,stop:1 orange)
+}
