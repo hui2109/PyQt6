@@ -1,3 +1,6 @@
+# 排除Demo文件夹，因为太大了
+PyQt5_Demo/
+
 # macOS文件排除
 .DS_Store
 
