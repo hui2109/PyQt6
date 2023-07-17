@@ -13,8 +13,6 @@ window.setWindowTitle('')
 window.resize(500,500)
 window.move(200,200)
 
-
-
 # 2.3 展示控件
 window.show()
 
